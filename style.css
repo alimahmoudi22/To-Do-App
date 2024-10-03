@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url("./img/pramod-tiwari-G1WUM1cU13A-unsplash.jpg");
+    background: url("./img/marek-piwnicki-U6WvLJU0l6o-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -76,10 +76,13 @@ body{
 .task{
     list-style: none;
     font-size: 1.8rem;
-    padding: 1.6rem .8rem 1.6rem 5rem;
+    padding: 1.6rem 1.8rem 1.6rem 5rem;
     user-select: none;
     cursor: pointer;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .task::before{
     content: '';
@@ -93,6 +96,10 @@ body{
     background-repeat: no-repeat;
     top: 1.2rem;
     left: .8rem;
+}
+.task  img{
+    width: 2.2rem;
+    height: 2.2rem;
 }
 .completed{
     text-decoration: line-through;
