@@ -42,3 +42,31 @@ body{
 .header__image{
     width: 5rem;
 }
+.input-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+.input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 1rem;
+    font-weight: 1.4rem;
+}
+.button{
+    border: none;
+    outline: none;
+    padding: 1.6rem 5rem;
+    background-color: #ff5945;
+    color: #fff;
+    font-size: 1.6rem;
+    border-radius: 4rem;
+    cursor: pointer;
+}
