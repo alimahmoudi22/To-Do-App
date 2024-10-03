@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("./img/marek-piwnicki-U6WvLJU0l6o-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+}
+.card{
+    width: 100%;
+    max-width: 54rem;
+    background-color: #fff;
+    padding: 4rem 3rem 7rem;
+    border-radius: 1rem;
+}
+.mainCard{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+.header__title{
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: #1d1c1c;
+}
+.header__image{
+    width: 5rem;
+}
