@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url("./img/marek-piwnicki-U6WvLJU0l6o-unsplash.jpg");
+    background: url("./img/pramod-tiwari-G1WUM1cU13A-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@ body{
 .header__title{
     font-weight: bold;
     font-size: 2.4rem;
-    color: #1d1c1c;
+    color: #1d1d1c;
 }
 .header__image{
     width: 5rem;
@@ -58,7 +58,7 @@ body{
     outline: none;
     background-color: transparent;
     padding: 1rem;
-    font-weight: 1.4rem;
+    font-size: 1.6rem;
 }
 .button{
     border: none;
@@ -69,4 +69,35 @@ body{
     font-size: 1.6rem;
     border-radius: 4rem;
     cursor: pointer;
+}
+.tasks{
+
+}
+.task{
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 1.6rem .8rem 1.6rem 5rem;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+.task::before{
+    content: '';
+    position: absolute;
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    background-image: url("./img/unchecked.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 1.2rem;
+    left: .8rem;
+}
+.completed{
+    text-decoration: line-through;
+    color: #555;
+}
+.completed::before{
+    background-image: url("./img/checked.png");
 }
